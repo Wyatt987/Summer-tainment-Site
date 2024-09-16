@@ -1,0 +1,40 @@
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .calor {
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+  }
+  .scroll-down-arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    cursor: pointer;
+    z-index: 5;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    color: blue;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.5); /* Size at midpoint of animation */
+    }
+    100% {
+        transform: scale(1); /* Ending size */
+    }
+}
