@@ -13,18 +13,24 @@ video {
     margin: 10px;
     border: 10px;
   }
-  .scroll-down-arrow {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 60px;
-    cursor: pointer;
-    z-index: 5;
+
+ .arrow {
+    border: solid blue;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
     animation-name: scale;
+    margin-top: 650px;
+    margin-left: 650px;
     animation-duration: 2s;
     animation-iteration-count: infinite; 
-    color: blue;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.cruise {
+        z-index: 0;
+        Float: left;
+        width: 100%;
 }
 
 @keyframes scale {
@@ -32,9 +38,13 @@ video {
         transform: scale(1); 
     }
     50% {
-        transform: scale(1.5); /* Size at midpoint of animation */
+        transform: scale(5.5); /* Size at midpoint of animation */
     }
     100% {
         transform: scale(1); /* Ending size */
     }
+}
+
+.Friends {
+    
 }
