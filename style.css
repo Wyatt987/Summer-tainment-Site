@@ -21,16 +21,17 @@ video {
     padding: 3px;
     animation-name: scale;
     margin-top: 650px;
-    margin-left: 650px;
+    margin-left: 925px;
     animation-duration: 2s;
     animation-iteration-count: infinite; 
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-.cruise {
+#cruise {
         z-index: 0;
         Float: left;
         width: 100%;
+        margin-top: 30px;
 }
 
 @keyframes scale {
@@ -45,6 +46,3 @@ video {
     }
 }
 
-.Friends {
-    
-}
