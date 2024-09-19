@@ -39,10 +39,11 @@ video {
         transform: scale(1); 
     }
     50% {
-        transform: scale(5.5); /* Size at midpoint of animation */
+        transform: scale(4.5); 
     }
     100% {
-        transform: scale(1); /* Ending size */
+        transform: scale(1); 
     }
 }
+
 
