@@ -36,14 +36,18 @@ video {
 
 @keyframes scale {
     0% {
-        transform: scale(1); 
+        transform: scale(1)  rotate(45deg); 
     }
     50% {
-        transform: scale(4.5); 
+        transform: scale(4.5) rotate(45deg); 
     }
     100% {
-        transform: scale(1); 
+        transform: scale(1) rotate(45deg); 
     }
 }
-
-
+#Friends {
+    height: 1200px;
+}
+body {
+    background-color: tan;
+}
